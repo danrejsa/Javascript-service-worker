@@ -1,4 +1,4 @@
-# Mobile Web Specialist Certification Course
+# Restaurant Review App
 ---
 #### _Three Stage Course Material Project - Restaurant Reviews_
 #Click [here](https://danrejsa.github.io/Restaurant-Review-App/) to view App
