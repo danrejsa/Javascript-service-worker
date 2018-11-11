@@ -6,5 +6,4 @@
 ## ScreenShot
 ![Screenshot](screenshot.png)
 
-## Project Overview: Stage 1
 
