@@ -1,7 +1,7 @@
 let restaurants,
   neighborhoods,
   cuisines
-var map
+var newMap
 var markers = []
 
 /**
@@ -75,7 +75,7 @@ window.initMap = () => {
     lat: 40.722216,
     lng: -73.987501
   };
-  self.map = new google.maps.Map(document.getElementById('map'), {
+  self.newMap = new google.maps.newMap(document.getElementById('map'), {
     zoom: 12,
     center: loc,
     scrollwheel: false
@@ -172,7 +172,7 @@ createRestaurantHTML = (restaurant) => {
 addMarkersToMap = (restaurants = self.restaurants) => {
   restaurants.forEach(restaurant => {
     // Add marker to the map
-    const marker = DBHelper.mapMarkerForRestaurant(restaurant, self.map);
+    const marker = DBHelper.mapMarkerForRestaurant(restaurant, self.newMap);
     google.maps.event.addListener(marker, 'click', () => {
       window.location.href = marker.url
     });
