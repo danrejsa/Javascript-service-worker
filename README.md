@@ -1,4 +1,6 @@
 # Restaurant Review App
+## Description
+* This project is part of the Udacity Front-End Developer Nanodegree program.
 #### _Three Stage Course Material Project - Restaurant Reviews_
 
 
